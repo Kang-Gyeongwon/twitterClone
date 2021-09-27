@@ -1,4 +1,4 @@
-// firebase/app에 포함된 모든 모듈을 firebase라는 객체에 부여한다.
+// firebase/app에 포함된 모든 모듈을 firebase라는 객체에 부여한다. (버전이 바뀌면서 export 하는 방법이 바뀌어서 그럴수 잇음)
 import * as firebase from "firebase/app"
 
 // firebase 설정과 관련된 개인 정보

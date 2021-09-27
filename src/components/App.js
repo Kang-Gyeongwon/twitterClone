@@ -5,7 +5,7 @@ const App = () => {
   const [isLoggedIn, setLoggedIn] = useState(false)
   return <div>
     <AppRouter isLoggedIn={isLoggedIn}/>
-    <footer>&copy; {new Date().getFullYear()} Nwitter</footer>
+    <footer>&copy; {new Date().getFullYear()} twitter</footer>
   </div>
 }
 
